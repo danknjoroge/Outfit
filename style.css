@@ -1,0 +1,70 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+.homepage h1,p{
+    color: #fff;
+    text-align: center;
+}
+.homepage h1{
+    padding: 200px 0px 20px 0px;
+}
+button{
+    float: right;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+}
+.bg{
+    background-color: rgb(223, 219, 219);
+}
+.line{
+    width: 1000px;
+    border-bottom: 3px solid rgb(153, 152, 152);
+    position: absolute;
+    margin-left: 50px;
+}
+.row{
+    margin:0px 150px 0px 100px;
+    justify-content: space-around;
+}
+.card{
+    width: 260px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(179, 177, 177);
+}
+.sale{
+  float: right;
+  text-align: center;
+  padding-right: 450px;
+}
+.line2{
+    width: 960px;
+    border-bottom: 3px solid rgb(153, 152, 152);
+    position: absolute;
+
+}
+.handles{
+    width: 33%;
+    justify-content: space-evenly;
+    margin-left: -80px;
+}
+
+@media (max-width: 544px){
+    .line{
+        width:60%;
+    }
+    .line2{
+        width:60%;
+    }
+    .sale{
+        margin: 10px;
+        padding: 10px;
+    }
+    .handles{
+        width:100%;
+    }
+}
