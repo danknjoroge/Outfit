@@ -5,5 +5,5 @@ This is a great project about fashion ecommerce. I really love working on it.
 
 * HTML
 * CSS
-* JS
+* JavaScript
 * BOOTSTRAP
